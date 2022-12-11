@@ -1,0 +1,27 @@
+{
+  "name": "strapi-plugin-user-pools",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "strapi-plugin-user-pools",
+    "description": "Description of Strapi Plugin User Pools plugin",
+    "kind": "plugin",
+    "displayName": "Strapi Plugin User Pools"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.226.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
